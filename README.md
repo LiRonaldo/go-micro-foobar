@@ -18,7 +18,10 @@ require (
 	github.com/micro/go-micro/v2 v2.8.0
 
 )
-go.mod文件中这个地方会自动识别本地，和maven pom文件一样的
+##go.mod文件中这个地方会自动识别本地，和maven pom文件一样的
+
+##go mod 的适用方法，个人实践，最好的适用方法是新建一个项目，然后 go mod init  然后 go mod tidy 
+##go mod 会把依赖包下载下来存到一个目录，新项目的时候 会加载本地存好的依赖，完全可以理解是pom 文件，加载本地jar包
 
 
-一步一坑 加油！
+#一步一坑 加油！
